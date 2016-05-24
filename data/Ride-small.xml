@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="strava.com Android" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+ <metadata>
+  <time>2015-09-11T10:16:04Z</time>
+ </metadata>
+ <trk>
+  <name>Ride 1</name>
+  <trkseg>
+   <trkpt lat="55.0309890" lon="-7.3416700">
+    <ele>21.8</ele>
+    <time>2015-09-11T10:16:04Z</time>
+   </trkpt>
+   <trkpt lat="55.0309570" lon="-7.3416690">
+    <ele>21.8</ele>
+    <time>2015-09-11T10:16:09Z</time>
+   </trkpt>
+   <trkpt lat="55.0309560" lon="-7.3416100">
+    <ele>21.9</ele>
+    <time>2015-09-11T10:17:35Z</time>
+   </trkpt>
+   <trkpt lat="55.0309460" lon="-7.3415520">
+    <ele>22.0</ele>
+    <time>2015-09-11T10:17:39Z</time>
+   </trkpt>
+   <trkpt lat="55.0309470" lon="-7.3414960">
+    <ele>22.1</ele>
+    <time>2015-09-11T10:17:44Z</time>
+   </trkpt>
+   <trkpt lat="55.0309580" lon="-7.3414470">
+    <ele>22.1</ele>
+    <time>2015-09-11T10:17:48Z</time>
+   </trkpt>
+   <trkpt lat="55.0309600" lon="-7.3413960">
+    <ele>22.2</ele>
+    <time>2015-09-11T10:17:57Z</time>
+   </trkpt>
+  </trkseg>
+ </trk>
+</gpx>
