@@ -7,7 +7,7 @@ import java.util.List;
 
 public class WayPointList {
 	
-    private List<WayPoint> wayPoints;
+  private List<WayPoint> wayPoints;
 	private Calendar startTime;
 	private int startPosIndex;
 	private int startSecsOffset;
