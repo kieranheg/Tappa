@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+    id 'groovy'
+    id 'idea'
+}
+
+group 'com.flossi'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+task(runMain, dependsOn: 'classes', type: JavaExec) {
+    main = 'com.flossi.FlossyV2'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.8'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.9.9'
+    compile 'joda-time:joda-time:2.10.3'
+    annotationProcessor 'org.projectlombok:lombok:1.18.8'
+    testCompile 'junit:junit:4.12'
+}

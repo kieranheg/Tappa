@@ -1,1 +1,4 @@
-# Old-Tappa
+# Tappa
+
+
+    ./gradlew clean build runMain
