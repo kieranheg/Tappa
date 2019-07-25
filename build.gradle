@@ -8,6 +8,7 @@ group 'com.flossi'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 repositories {
     mavenCentral()
@@ -18,10 +19,18 @@ task(runMain, dependsOn: 'classes', type: JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
 }
 
+test {
+    useJUnitPlatform() {
+        includeTags 'fast'
+        excludeTags 'slow'
+    }
+}
+
 dependencies {
-    compileOnly 'org.projectlombok:lombok:1.18.8'
     compile 'com.fasterxml.jackson.core:jackson-databind:2.9.9'
     compile 'joda-time:joda-time:2.10.3'
+    compileOnly 'org.projectlombok:lombok:1.18.8'
     annotationProcessor 'org.projectlombok:lombok:1.18.8'
-    testCompile 'junit:junit:4.12'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.5.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.5.1'
 }
